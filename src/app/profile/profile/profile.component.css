@@ -1,0 +1,17 @@
+h1,h2,h3,p{
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+.photo-con{
+   display: flex;
+   justify-content: center;
+}
+
+.photo{
+    border-radius: 50%;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+}

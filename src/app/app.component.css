@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: "Snell Roundhand", "Brush Script MT", "Lucida Handwriting", sans-serif;
+    padding-top: 2px;
+}
+
+.hr-line{
+    color: white;
+}
