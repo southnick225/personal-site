@@ -67,6 +67,11 @@
     top: 1em;
     text-transform: lowercase;
   }
+
+  .links{
+    color: #2eadff;
+    text-decoration: none;
+  }
   
   .wave:nth-child(2),
   .wave:nth-child(3) {
