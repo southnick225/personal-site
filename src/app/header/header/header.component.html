@@ -1,7 +1,7 @@
 <div class="header-tabs-container">
-   <button class="btn btn-outline-light tab">Resume</button>
-   <button class="btn btn-outline-light tab padding">Projects</button>
-   <button class="btn btn-outline-light tab padding">Bio</button>
-   <button class="btn btn-outline-light tab padding">Contact</button>
+   <button class="btn btn-outline-light tab" routerLinkActive="active" [routerLink]="['resume']">Resume</button>
+   <button class="btn btn-outline-light tab padding" [disabled]="true">Projects</button>
+   <button class="btn btn-outline-light tab padding" routerLinkActive="active" [routerLink]="['education']">Education</button>
+   <button class="btn btn-outline-light tab padding" routerLinkActive="active" [routerLink]="['contact']">Contact</button>
 </div>
 

@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12">
+      <div class="centered">
+        <h1>IBM</h1>
+        <h5>International Business Machinery</h5>
+        <p>Technical Specialist</p>
+        <p>2018-2023</p>
+        <div class="notification" *ngFor="let project of projects_ibm">
+          <div class="notiglow"></div>
+          <div class="notiborderglow"></div>
+          <div class="notititle">{{project.title}}</div>
+          <div class="notibody">{{project.role}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <div class="centered">
+        <h1>BCBS</h1>
+        <h5>Blue Cross Blue Shield LA</h5>
+        <p>Business Engineering Config Analyst</p>
+        <p>2017</p>
+        <div class="notification" *ngFor="let project of projects_bcbs">
+          <div class="notiglow"></div>
+          <div class="notiborderglow"></div>
+          <div class="notititle">{{project.title}}</div>
+          <div class="notibody">{{project.role}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
