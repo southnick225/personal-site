@@ -7,63 +7,67 @@ import { Component } from '@angular/core';
 })
 export class ResumeComponent {
 
+//IBM projects
+
   projects_ibm = [
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'IBM Global Leraning and Knowledge',
+      role: 'UI Developer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'Macys Cognitive Knowledge Management',
+      role: 'Site Reliability Engineer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'IBM Internal Cocoon Application',
+      role: 'Full Stack Developer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'New York State DOL',
+      role: 'Emergency UI/PUA Analysis/Data Entry and phone agent',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'MUFG Bank',
+      role: 'SQL Developer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'IBM Global Methods Learning and Knowledge',
+      role: 'UI Developer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'IBM Internal Watson Automation Campaign Landing Page',
+      role: 'UI Developer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'Citi Bank Citi Loyalty Program',
+      role: 'UI Developer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'United Technologies Corporation Emptoris Spend Analysis',
+      role: 'Data Refresh Engineer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     }
   ];
 
+  //Blue cross projects
+
   projects_bcbs = [
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'Metrics Reports',
+      role: 'Developer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
     {
-      title: 'Macys',
-      role: 'site reliability engineer',
+      title: 'Configuration/Data Entry',
+      role: 'Configuration Analyst',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     }
   ];
