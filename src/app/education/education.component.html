@@ -1,5 +1,54 @@
-<div class="container">
-    <div class="row">
-        <p>test</p>
+
+<h3 class="centered dg">Education</h3>
+<br>
+
+<div class="container centered">
+  <div class="row">
+    <div class="card mb-3 bgCol2" style="max-width: 540px; margin-left:10px" *ngFor="let school of schools">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/no.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">{{school.title}}</h5>
+            <p class="card-text">{{school.desc}}</p>
+            <p class="card-text"><small class="text-body-secondary"><span class="purp">{{school.buttonText}}</span></small></p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
+
+<br>
+<div class="container">
+  <div class="row">
+    <hr class="dg">
+  </div>
+</div>
+<br>
+
+
+<h3 class="centered dg">Certifications</h3>
+<br>
+
+<div class="container centered">
+  <div class="row">
+    <div class="card mb-3 bgCol2" style="max-width: 540px; margin-left:10px" *ngFor="let cert of certs">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/no.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">{{cert.title}}</h5>
+            <p class="card-text">{{cert.description}}</p>
+            <p class="card-text"><small class="text-body-secondary"><span class="purp">{{cert.expired}}</span></small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

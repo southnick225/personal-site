@@ -17,6 +17,41 @@ export class ResumeComponent {
       title: 'Macys',
       role: 'site reliability engineer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
+    },
+    {
+      title: 'Macys',
+      role: 'site reliability engineer',
+      description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
+    },
+    {
+      title: 'Macys',
+      role: 'site reliability engineer',
+      description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
+    },
+    {
+      title: 'Macys',
+      role: 'site reliability engineer',
+      description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
+    },
+    {
+      title: 'Macys',
+      role: 'site reliability engineer',
+      description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
+    },
+    {
+      title: 'Macys',
+      role: 'site reliability engineer',
+      description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
+    },
+    {
+      title: 'Macys',
+      role: 'site reliability engineer',
+      description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
+    },
+    {
+      title: 'Macys',
+      role: 'site reliability engineer',
+      description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     }
   ];
 
@@ -26,6 +61,11 @@ export class ResumeComponent {
       role: 'site reliability engineer',
       description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
     },
+    {
+      title: 'Macys',
+      role: 'site reliability engineer',
+      description: 'lorem empsum sdf dfdfvf vvfv fv fvdvdvdvdvfvfvfvfvffvfvfv'
+    }
   ];
 
 }

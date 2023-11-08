@@ -1,0 +1,28 @@
+.eduCards{
+    display: flex;
+    justify-content: center;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+}
+
+.bgCol{
+    color:white;
+    background-color: black;
+}
+
+
+.bgCol2{
+    color:white;
+    background-color: black;
+}
+
+.purp{
+    color: #7e61ff;
+}
+
+.dg{
+    color:darkgray;
+}

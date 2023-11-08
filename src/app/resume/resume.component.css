@@ -15,7 +15,8 @@
   display: flex;
   flex-direction: column;
   cursor:pointer;
-  margin-top: 10px;
+  margin-top: 8px;
+  margin-right: 10px;
   isolation: isolate;
   position: relative;
   width: 18rem;
