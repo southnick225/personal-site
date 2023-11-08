@@ -7,7 +7,7 @@
     <div class="card mb-3 bgCol2" style="max-width: 540px; margin-left:10px" *ngFor="let school of schools">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/no.png" class="img-fluid rounded-start" alt="...">
+          <img src={{school.image}} class="img-fluid rounded-start" alt="..." style="max-height: 150px; max-width: 150px;">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -38,7 +38,7 @@
     <div class="card mb-3 bgCol2" style="max-width: 540px; margin-left:10px" *ngFor="let cert of certs">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/no.png" class="img-fluid rounded-start" alt="...">
+          <img src={{cert.image}} class="img-fluid rounded-start" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
