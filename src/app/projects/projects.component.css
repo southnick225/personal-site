@@ -1,4 +1,14 @@
 .centered{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card2{
+    border: solid rgb(182, 182, 182) 2px;
+    background-color: black;
+}
+
+.links{
+    text-decoration: none;
 }
