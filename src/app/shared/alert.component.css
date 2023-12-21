@@ -1,0 +1,36 @@
+/*Alert component styles for the alert modal.
+
+.backdrop{} turns the background black and z-index=50 to overlay all the content on the UI.
+w/h are 100% of the viewport width and viewport height. This div encompasses the modal box.
+
+.alert-box{} is the actual modal which contains the message and closing actions box.
+
+.alert-box-actions{} is the div encompassing the "close button"
+
+
+
+*/
+.backdrop{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.75);
+    z-index: 50;
+  }
+  
+  .alert-box{
+    position: fixed;
+    top: 30vh;
+    left: 20vw;
+    width: 60vw;
+    padding: 16px;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0 2px 8px white;
+  }
+  
+  .alert-box-actions{
+    text-align: right;
+  }

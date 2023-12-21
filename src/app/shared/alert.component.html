@@ -1,0 +1,12 @@
+<!-- creates a black overlay with a modal box and message property to be set where the component is called. -->
+<!-- uses (click) on the backdrop and the button to to enable the ability to close the modal from anywhere on the UI  -->
+
+<div class="backdrop" (click)="onClose()"></div>
+<div class="alert-box">
+        <p>{{message}}</p>
+        <div class="alert-box-actions">
+            <button class="btn btn-secondary" (click)="onClose()">
+                Close
+            </button>
+        </div>
+</div>
