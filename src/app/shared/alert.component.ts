@@ -15,6 +15,7 @@ export class AlertComponent{
     //  "close" property to emit a click event 
 
     @Input() message: String = '';
+    @Input() title: String = '';
     @Output() close = new EventEmitter<void>()
    
     onClose(){
