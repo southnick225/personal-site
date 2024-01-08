@@ -45,10 +45,9 @@ export class ResumeComponent {
     {
       title: 'Macys Cognitive Knowledge Management',
       role: 'Site Reliability Engineer',
-      description: 'Served as a SRE on the operations team for the Macys and Bloomingdales customer service and agent site (programmed in React and Python) to ensure availability and reliability across all components of the application. Monitor Zendesk and logDNA for errors pertaining to application usability and functionality. Expected to be on call and the point of contact for any issues relating to availability. Perform code updates and deployments.'
-      + 'As part of the operations team, was responsible for monitoring ticket system and responding to incoming ticket request. Performed troubleshooting, diagnosing, and resolving of issues related to application function.'
-      + 'Created documentation for operation processes such as code deployments to different application environments within the IBM Cloud.'
-      + 'Performed code deployments for updated features and coding changes within the application. Used logDNA and pod logs to monitor and identify application alerts and issues.'
+      description: 'Served as an SRE on the operations team for the Macys and Bloomingdales customer service and agent site (programmed in React and Python) to ensure availability and reliability across all components of the application. Monitored Zendesk(ticketing system) and logDNA for errors pertaining to application usability and functionality. Worked on call and was the point of contact for any issues related to availability.'
+      + 'Performed troubleshooting and code deployments.'
+      + 'Created techinical documentation for operation processes.'
     },
     {
       title: 'IBM Internal Cocoon Application',
@@ -59,7 +58,7 @@ export class ResumeComponent {
       title: 'New York State DOL',
       role: 'Emergency UI/PUA Analysis/Data Entry and phone agent',
       description: 'Provide mainframe data entry and analysis services in support of NYS DOL unemployment insurance for workers impacted by the COVID-19 pandemic including DOL Pandemic Unemployment Assistance program for workers not ordinarily eligible for unemployment benefits, pursuant to the federal Coronavirus Aid, Relief, and Economic Security (CARES) Act.'
-      + ' Created/Contributed to process documentation outlining processes, work arounds, troubleshooting, and FAQS. Completed data entry after research and troubleshooting to obtain integral pieces of information required to process claims. Served as a telephone agent with access to NYSDOL contact center and corresponding systems of record in order to answer, diagnose, and resolve.'
+      + ' Created/Contributed to process documentation, work arounds, troubleshooting, and FAQS.'
     },
     {
       title: 'MUFG Bank',
@@ -102,7 +101,7 @@ export class ResumeComponent {
       description: 'Provided configuration support by utilizing relational database tools such as MS SQL Management Studio and MS Access to extract and analyze data from core system’s relational databases to determine configuration changes.'
       + 'Migrated and validated configurations in development, test, and production environments according to documented processes and controls.'
       + 'Developed and executed test cases ensuring the quality of configuration and performed analysis of those test results.'
-      + 'Documented detailed technical changes to the computer systems, databases, and other software packages supported by the Business Engineering team.'
+      + 'Also documented detailed technical changes to software systems.'
     }
   ];
 
